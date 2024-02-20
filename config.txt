@@ -1,0 +1,5 @@
+
+PROJECT_NAME=snipaste
+snipaste_VERSION_MAJOR=2
+snipaste_VERSION_MINOR=8
+snipaste_VERSION_PATCH=5
