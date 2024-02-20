@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "Gendloop's app",
+    "homepage": "https://github.com/gendloop/snipaste",
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gendloop/snipaste/releases/download/v1.0.0/snipaste-$version-win64.7z",
+            "hash": ""
+        }
+    },
+    "bin": "snipaste.exe",
+    "shortcuts": [
+        [
+            "snipaste.exe",
+            "snipaste"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gendloop/snipaste/releases/download/v$version/snipaste-$version-win64.7z"
+            }
+        }
+    }
+}
